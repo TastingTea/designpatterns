@@ -11,6 +11,7 @@ public class DAOLogHandler implements InvocationHandler {
 	private Object object;
 	
 	public DAOLogHandler() {
+	}
 	
 	//自定义有参构造函数，用于注入一个需要提供代理的真实主题对象
 	public DAOLogHandler(Object object) {
